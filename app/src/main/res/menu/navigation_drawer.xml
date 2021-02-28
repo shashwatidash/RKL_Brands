@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/item1"
+            android:title="Home"
+            android:icon="@drawable/ic_home">
+        </item>
+        <item
+            android:id="@+id/item2"
+            android:title="Explore"
+            android:icon="@drawable/ic_explore">
+        </item>
+        <item
+            android:id="@+id/item3"
+            android:title="Gift Cards"
+            android:icon="@drawable/ic_giftcard">
+        </item>
+        <item
+            android:id="@+id/item4"
+            android:title="Offers"
+            android:icon="@drawable/ic_offers">
+        </item>
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitle"
+            android:title="SHOP IN">
+
+            <menu>
+                <item
+                    android:id="@+id/item5"
+                    android:icon="@drawable/ic_man"
+                    android:title="Men" />
+
+                <item
+                    android:id="@+id/item6"
+                    android:icon="@drawable/ic_woman"
+                    android:title="Women" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Price"
+        android:icon="@drawable/ic_price"
+        app:showAsAction="always"
+        android:contentDescription="setRange"
+        android:background="?attr/selectableItemBackgroundBorderless">
+
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Gender"
+        android:icon="@drawable/ic_gender"
+        app:showAsAction="always"
+        android:contentDescription="setGender"
+        android:background="?attr/selectableItemBackgroundBorderless">
+
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:title="Brand"
+        android:icon="@drawable/ic_filter_list"
+        app:showAsAction="always"
+        android:contentDescription="setBrand"
+        android:background="?attr/selectableItemBackgroundBorderless">
+    </item>
+</menu>
